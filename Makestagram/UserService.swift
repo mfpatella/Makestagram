@@ -15,7 +15,10 @@ struct UserService {
     static func create(_ firUser: FIRUser, username: String, completion: @escaping (User?)
     -> Void)
     {
-        let userAttrs = ["username": username]
+        let userAttrs: [String: Any] = ["username": username,
+                         "follower_count": 0,
+                         "following_count": 0,
+                         "post_count": 0]
         
         let ref = Database.database().reference().child("users").child(firUser.uid)
         
