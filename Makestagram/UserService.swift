@@ -155,4 +155,22 @@ struct UserService {
             })
         })
     }
+    
+    static func observeProfile(for user: User, completion: @escaping (DatabaseReference, User?,[Post]) -> Void) -> DatabaseHandle {
+        
+        let userRef = Database.database().reference().child("users").child(user.uid)
+        
+        return userRef.observe(.value, with: { snapshot in
+            
+            guard let user = User(snapshot: snapshot) else {
+                return completion(userRef, nil, [])
+            }
+            
+            posts(for: user, completion: { posts in
+                
+                completion(userRef, user, posts)
+            })
+            
+        })
+    }
 }
