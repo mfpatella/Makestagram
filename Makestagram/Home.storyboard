@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9wr-qX-QaA">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="9wr-qX-QaA">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -28,18 +28,18 @@
                                         <rect key="frame" x="0.0" y="28" width="375" height="54"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="e0y-vz-X1w" id="4MU-W0-skd">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="53.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RKq-2L-OeX">
-                                                    <rect key="frame" x="343" y="14" width="24" height="24"/>
+                                                    <rect key="frame" x="336" y="14" width="24" height="24"/>
                                                     <state key="normal" image="btn_options_black"/>
                                                     <connections>
                                                         <action selector="optionsButtonTapped:" destination="e0y-vz-X1w" eventType="touchUpInside" id="1ZL-VG-DXs"/>
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UBY-vF-eSe">
-                                                    <rect key="frame" x="8" y="21.5" width="76" height="21"/>
+                                                    <rect key="frame" x="15" y="21.5" width="76" height="21"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -60,11 +60,11 @@
                                         <rect key="frame" x="0.0" y="82" width="375" height="375"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="WM4-Q1-ocO" id="PjX-Oq-R64">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="375"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="374.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bXX-HL-tkQ">
-                                                    <rect key="frame" x="8" y="8" width="359" height="358.5"/>
+                                                    <rect key="frame" x="15" y="11" width="345" height="353"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -82,11 +82,11 @@
                                         <rect key="frame" x="0.0" y="457" width="375" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ipj-wZ-4HK" id="9AU-2R-fQz">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="46"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="45.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FbQ-Ef-fn0">
-                                                    <rect key="frame" x="10" y="8" width="24" height="30"/>
+                                                    <rect key="frame" x="17" y="11" width="19" height="24"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="FbQ-Ef-fn0" secondAttribute="height" multiplier="24:29" id="wg0-xv-ppk"/>
                                                     </constraints>
@@ -98,7 +98,7 @@
                                                     </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5 likes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HcY-VR-BsW">
-                                                    <rect key="frame" x="42" y="12" width="49" height="21"/>
+                                                    <rect key="frame" x="44" y="15" width="49" height="15"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="49" id="v2U-ZL-F8b"/>
                                                     </constraints>
@@ -156,7 +156,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="vdI-VK-5VL"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Makestagram" id="Vfb-PA-A3s"/>
+                    <navigationItem key="navigationItem" title="Makestagram" id="Vfb-PA-A3s">
+                        <barButtonItem key="rightBarButtonItem" title="IM" id="JA8-YC-OAP">
+                            <connections>
+                                <segue destination="d61-pq-2e3" kind="presentation" id="CMJ-1q-eqI"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="tableView" destination="sMx-K3-Zg2" id="Glp-yn-JU0"/>
                     </connections>
@@ -186,6 +192,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="VQ5-eA-GUr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="692.79999999999995" y="-232.08395802098951"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="pCo-sH-OAc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Chat" id="d61-pq-2e3" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vc3-AC-JTL" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2254" y="-242"/>
         </scene>
     </scenes>
     <resources>

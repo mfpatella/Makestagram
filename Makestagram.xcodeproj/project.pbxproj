@@ -51,6 +51,15 @@
 		C74D19AD1F9BA8B400EC2C9B /* btn_options_black.png in Resources */ = {isa = PBXBuildFile; fileRef = C74D19A41F9BA8B400EC2C9B /* btn_options_black.png */; };
 		C74D19AF1F9BE66F00EC2C9B /* PostActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D19AE1F9BE66F00EC2C9B /* PostActionCell.swift */; };
 		C74D19B11F9E21C700EC2C9B /* LikeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74D19B01F9E21C700EC2C9B /* LikeService.swift */; };
+		C7525FA61FCDD94100009728 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7525FA51FCDD94100009728 /* Chat.swift */; };
+		C7525FA81FCDDC0500009728 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7525FA71FCDDC0500009728 /* Message.swift */; };
+		C7525FAA1FCE5B6200009728 /* ChatService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7525FA91FCE5B6200009728 /* ChatService.swift */; };
+		C7525FAC1FD58FC200009728 /* Chat.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7525FAB1FD58FC200009728 /* Chat.storyboard */; };
+		C7525FAE1FD601CA00009728 /* ChatListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7525FAD1FD601CA00009728 /* ChatListViewController.swift */; };
+		C7AF80C91FD6FFD400FEE968 /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF80C81FD6FFD400FEE968 /* ChatListCell.swift */; };
+		C7AF80CB1FD7048700FEE968 /* NewChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF80CA1FD7048700FEE968 /* NewChatViewController.swift */; };
+		C7AF80CD1FD72FB400FEE968 /* NewChatUserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF80CC1FD72FB400FEE968 /* NewChatUserCell.swift */; };
+		C7AF80CF1FD7389D00FEE968 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7AF80CE1FD7389D00FEE968 /* ChatViewController.swift */; };
 		C7BB0BDA1FA0DDF6009FECAB /* FollowService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB0BD91FA0DDF6009FECAB /* FollowService.swift */; };
 		C7BB0BDC1FA77A65009FECAB /* FindFriendsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB0BDB1FA77A65009FECAB /* FindFriendsCell.swift */; };
 		C7BB0BDF1FA77B4A009FECAB /* FindFriends.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7BB0BDD1FA77B4A009FECAB /* FindFriends.storyboard */; };
@@ -113,6 +122,15 @@
 		C74D19A41F9BA8B400EC2C9B /* btn_options_black.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = btn_options_black.png; path = ../../../Downloads/makestagram_assets/btn_images/btn_options_black.png; sourceTree = "<group>"; };
 		C74D19AE1F9BE66F00EC2C9B /* PostActionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostActionCell.swift; sourceTree = "<group>"; };
 		C74D19B01F9E21C700EC2C9B /* LikeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeService.swift; sourceTree = "<group>"; };
+		C7525FA51FCDD94100009728 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		C7525FA71FCDDC0500009728 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		C7525FA91FCE5B6200009728 /* ChatService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatService.swift; sourceTree = "<group>"; };
+		C7525FAB1FD58FC200009728 /* Chat.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chat.storyboard; sourceTree = "<group>"; };
+		C7525FAD1FD601CA00009728 /* ChatListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListViewController.swift; sourceTree = "<group>"; };
+		C7AF80C81FD6FFD400FEE968 /* ChatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
+		C7AF80CA1FD7048700FEE968 /* NewChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatViewController.swift; sourceTree = "<group>"; };
+		C7AF80CC1FD72FB400FEE968 /* NewChatUserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewChatUserCell.swift; sourceTree = "<group>"; };
+		C7AF80CE1FD7389D00FEE968 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		C7BB0BD91FA0DDF6009FECAB /* FollowService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowService.swift; sourceTree = "<group>"; };
 		C7BB0BDB1FA77A65009FECAB /* FindFriendsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindFriendsCell.swift; sourceTree = "<group>"; };
 		C7BB0BDE1FA77B4A009FECAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FindFriends.storyboard; sourceTree = "<group>"; };
@@ -185,10 +203,18 @@
 				C71980CC1FCBCB0F0083C33C /* Profile.storyboard */,
 				C71980D01FCC77CD0083C33C /* ProfileHeaderView.swift */,
 				C71980CA1FCB504F0083C33C /* ProfileViewController.swift */,
+				C7525FA51FCDD94100009728 /* Chat.swift */,
+				C7525FA71FCDDC0500009728 /* Message.swift */,
 				C71980CE1FCC51840083C33C /* PostThumbImageCell.swift */,
 				C7BB0BDD1FA77B4A009FECAB /* FindFriends.storyboard */,
 				C7BB0BDB1FA77A65009FECAB /* FindFriendsCell.swift */,
 				C74D19961F965B5F00EC2C9B /* Home.storyboard */,
+				C7525FAB1FD58FC200009728 /* Chat.storyboard */,
+				C7AF80CC1FD72FB400FEE968 /* NewChatUserCell.swift */,
+				C7AF80CA1FD7048700FEE968 /* NewChatViewController.swift */,
+				C7AF80CE1FD7389D00FEE968 /* ChatViewController.swift */,
+				C7AF80C81FD6FFD400FEE968 /* ChatListCell.swift */,
+				C7525FAD1FD601CA00009728 /* ChatListViewController.swift */,
 				C74D19B01F9E21C700EC2C9B /* LikeService.swift */,
 				C74D19AE1F9BE66F00EC2C9B /* PostActionCell.swift */,
 				C7BB0BD91FA0DDF6009FECAB /* FollowService.swift */,
@@ -215,6 +241,7 @@
 				C7D2635E1F83E7CA007B93BD /* Login.storyboard */,
 				C7F1BC7B1F848ABF00736AA8 /* CreateUsernameViewController.swift */,
 				C7D8AC771F8AB07700B73A9C /* UserService.swift */,
+				C7525FA91FCE5B6200009728 /* ChatService.swift */,
 				C7D263601F83E846007B93BD /* LoginViewController.swift */,
 				C74D196A1F8C159F00EC2C9B /* Storyboard+Utility.swift */,
 				C7D8AC791F8BE92800B73A9C /* Constants.swift */,
@@ -324,6 +351,7 @@
 				C7CD92C61F83E4A400648D62 /* GoogleService-Info.plist in Resources */,
 				C74D197D1F8C651600EC2C9B /* tab_find_friends_black@2x.png in Resources */,
 				C7BB0BDF1FA77B4A009FECAB /* FindFriends.storyboard in Resources */,
+				C7525FAC1FD58FC200009728 /* Chat.storyboard in Resources */,
 				C74D19A91F9BA8B400EC2C9B /* btn_heart_black_outline@3x.png in Resources */,
 				C74D197F1F8C651600EC2C9B /* tab_profile_black@2x.png in Resources */,
 				C74D19821F8C651600EC2C9B /* tab_plus_black@3x.png in Resources */,
@@ -350,6 +378,8 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
@@ -358,6 +388,8 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
@@ -392,7 +424,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Makestagram/Pods-Makestagram-resources.sh",
-				$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle,
+				"$PODS_CONFIGURATION_BUILD_DIR/FirebaseUI/FirebaseAuthUI.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
@@ -410,6 +442,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7AF80C91FD6FFD400FEE968 /* ChatListCell.swift in Sources */,
 				C7BB0BDA1FA0DDF6009FECAB /* FollowService.swift in Sources */,
 				C7F1BC7A1F84805400736AA8 /* User.swift in Sources */,
 				C74D198D1F944A3F00EC2C9B /* StorageService.swift in Sources */,
@@ -424,20 +457,27 @@
 				C71980D11FCC77CD0083C33C /* ProfileHeaderView.swift in Sources */,
 				C74D19991F9A827900EC2C9B /* PostImageCell.swift in Sources */,
 				C73AFE401FBBDBC1008992ED /* MGPaginationHelper.swift in Sources */,
+				C7525FA61FCDD94100009728 /* Chat.swift in Sources */,
 				C7BB0BDC1FA77A65009FECAB /* FindFriendsCell.swift in Sources */,
+				C7AF80CD1FD72FB400FEE968 /* NewChatUserCell.swift in Sources */,
 				C74D19931F9656AB00EC2C9B /* UIImage+Size.swift in Sources */,
 				C74D19851F8C689000EC2C9B /* HomeViewController.swift in Sources */,
+				C7525FAE1FD601CA00009728 /* ChatListViewController.swift in Sources */,
 				C74D198B1F8DBB0F00EC2C9B /* MGPhotoHelper.swift in Sources */,
 				C74D196B1F8C159F00EC2C9B /* Storyboard+Utility.swift in Sources */,
 				C74D19871F8C68B600EC2C9B /* FindFriendsViewController.swift in Sources */,
+				C7525FAA1FCE5B6200009728 /* ChatService.swift in Sources */,
 				C73AFE3C1FBB2EBA008992ED /* DatabaseReference+Location.swift in Sources */,
 				C74D19951F9657ED00EC2C9B /* StorageReference+Post.swift in Sources */,
 				C7D8AC7A1F8BE92800B73A9C /* Constants.swift in Sources */,
 				C74D198F1F944CD300EC2C9B /* PostService.swift in Sources */,
 				C71980CF1FCC51840083C33C /* PostThumbImageCell.swift in Sources */,
 				C7F1BC7C1F848ABF00736AA8 /* CreateUsernameViewController.swift in Sources */,
+				C7525FA81FCDDC0500009728 /* Message.swift in Sources */,
 				C74D199B1F9BA60200EC2C9B /* PostHeaderCell.swift in Sources */,
 				C7CD92B41F83E22600648D62 /* AppDelegate.swift in Sources */,
+				C7AF80CF1FD7389D00FEE968 /* ChatViewController.swift in Sources */,
+				C7AF80CB1FD7048700FEE968 /* NewChatViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
